@@ -8,6 +8,8 @@ import { GenuinelyLikeComponent } from './genuinely-like/genuinely-like.componen
 import { CollegeHelpComponent } from './college-help/college-help.component';
 import { DetailsComponent } from './details/details.component';
 import { ProfilePicComponent } from './profile-pic/profile-pic.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { UserItemComponent } from './user-item/user-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ProfilePicComponent } from './profile-pic/profile-pic.component';
     GenuinelyLikeComponent,
     CollegeHelpComponent,
     DetailsComponent,
-    ProfilePicComponent
+    ProfilePicComponent,
+    UserListComponent,
+    UserItemComponent
   ],
   imports: [
     BrowserModule
